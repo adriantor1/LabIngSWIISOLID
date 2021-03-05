@@ -1,0 +1,72 @@
+W. Libardo Pantoja Yepez17:07
+Una ayuda:
+package co.unicauca.parkinglot.domain;
+
+/**
+ * Tipos de vehiculo
+ *
+ * @author Libardo
+ */
+public enum TypeEnum {
+    MOTO, CAR, TRUCK;
+
+}
+Otra pista importante:
+package co.unicauca.parkinglot.domain;
+
+import java.time.LocalDateTime;
+
+/**
+ * Interfaz para calcular el costo del parqueadero de cualquier tipo de
+ * vehiculo: carro, moto, camión
+ *
+ * @author Libardo
+ */
+public interface IParkingCost {
+
+    long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output);
+}
+W. Libardo Pantoja Yepez17:09
+Luego las clases que implementan la interfaz:
+public class CarParkingCost implements IParkingCost {
+W. Libardo Pantoja Yepez17:22
+Otra pequeña pista:
+package co.unicauca.parkinglot.domain;
+
+import java.util.EnumMap;
+import java.util.Map;
+
+/**
+ * Fábrica de que utiliza el patrón de diseño Singleton para generar una
+ * instancia de la interfaz IParkingCost
+ *
+ * @author Libardo, Julio
+ */
+public class ParkingCostFactory {
+
+    private Map<TypeEnum, IParkingCost> dictionary;
+
+    // Singleton
+    private static ParkingCostFactory instance;
+
+    private ParkingCostFactory() {
+        dictionary = new EnumMap<>(TypeEnum.class);
+        dictionary.
+W. Libardo Pantoja Yepez17:23
+dictionary.put(TypeEnum.MOTO, new MotoParkingCost());
+        dictionary.put(TypeEnum.CAR, new CarParkingCost());
+        dictionary.put(TypeEnum.TRUCK, new TruckParkingCost());
+        // Si se requie otro vehiculo, se abre un registro en este diccionario
+        // No se viola el principio porque este este modulo no está pensado
+        // para que sea estable.
+    
+W. Libardo Pantoja Yepez17:28
+Para que les funcione el driver de sqlite, deben agregar esta dependencia en el pom.xml:
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.27.2</version>
+        </dependency>
+W. Libardo Pantoja Yepez17:35
+Para operar fechas revisen este link:
+https://www.leveluplunch.com/java/examples/number-of-minutes-between-two-dates/
