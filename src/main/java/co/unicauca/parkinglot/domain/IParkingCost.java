@@ -6,7 +6,6 @@ import java.time.LocalDateTime;
  * Interfaz para calcular el costo del parqueadero de cualquier tipo de
  * vehiculo: carro, moto, camión
  * @author ADRIAN CAMILO TORRES
- * @author DANIEL NAVIA
  */
 public interface IParkingCost 
 {

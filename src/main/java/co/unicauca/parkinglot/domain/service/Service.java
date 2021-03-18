@@ -13,7 +13,6 @@ import java.util.List;
  * Controla que los vehiculos tengan informacion correcta y obtienen el costo
  * segun su tipo
  * @author ADRIAN CAMILO TORRES GOMEZ
- * @author DANIEL NAVIA
  */
 public class Service {
     

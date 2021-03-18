@@ -12,7 +12,6 @@ import java.util.List;
 /**
  * Un cliente main de prueba
  * @author ADRIAN CAMILO TORRES GOMEZ
- * @author DANIEL NAVIA
  */
 public class ClientMain {
 

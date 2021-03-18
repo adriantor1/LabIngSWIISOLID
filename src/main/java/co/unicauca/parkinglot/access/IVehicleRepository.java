@@ -5,7 +5,6 @@ import java.util.List;
 /**
  * Interfaz que declara los metodos a utilizar.
  * @author ADRIAN CAMILO TORRES
- * @author DANIEL NAVIA
  */
 public interface IVehicleRepository {
 

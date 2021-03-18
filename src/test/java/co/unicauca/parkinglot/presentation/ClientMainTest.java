@@ -19,7 +19,6 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Clase de prueba para el parqueadero
  * @author ADRIAN CAMILO TORRES GOMEZ
- * @author DANIEL NAVIA
  */
 public class ClientMainTest {
     

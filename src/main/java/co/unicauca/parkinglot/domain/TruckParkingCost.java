@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 /**
  * Implementa IParkingCost y el costo del parqueadero para camiones
- * @author ADRIAN
+ * @author ADRIAN CAMILO TORRES
  */
 public class TruckParkingCost implements IParkingCost{
     /**

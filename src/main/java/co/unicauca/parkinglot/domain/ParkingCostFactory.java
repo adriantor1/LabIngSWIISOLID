@@ -6,7 +6,6 @@ import java.util.Map;
 /**
  * Selecciona la instancia de un vehiculo para calcular su costo segun el tipo.
  * @author ADRIAN CAMILO TORRES
- * @author DANIEL NAVIA
  */
 public class ParkingCostFactory {
     /**

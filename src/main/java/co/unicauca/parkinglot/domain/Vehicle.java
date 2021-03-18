@@ -2,7 +2,6 @@ package co.unicauca.parkinglot.domain;
 /**
  * Vehiculo del parqueadero: Carro, Moto, Camion
  * @author ADRIAN CAMILO TORRES GOMEZ
- * @author DANIEL NAVIA
  */
 public class Vehicle 
 {

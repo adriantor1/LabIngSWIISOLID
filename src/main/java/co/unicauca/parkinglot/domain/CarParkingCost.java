@@ -6,7 +6,6 @@ import java.time.LocalDateTime;
 /**
  * Implementa IParkingCost y el costo del parqueadero para carros
  * @author ADRIAN CAMILO TORRES
- * @author DANIEL NAVIA
  */
 public class CarParkingCost implements IParkingCost 
 {

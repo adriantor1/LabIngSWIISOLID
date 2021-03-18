@@ -6,7 +6,6 @@ import java.time.LocalDateTime;
 /**
  * Implementa IParkingCost y el costo del parqueadero para motos
  * @author ADRIAN CAMILO TORRES
- * @author DANIEL NAVIA
  */
 public class MotoParkingCost implements IParkingCost {
     /**

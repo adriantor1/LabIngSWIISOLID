@@ -3,7 +3,6 @@ package co.unicauca.parkinglot.access;
 /**
  * Fabrica de repositorios donde se van a guardar los vehiculos.
  * @author ADRIAN CAMILO TORRES
- * @author DANIEL NAVIA
  */
 public class RepositoryFactory {
     

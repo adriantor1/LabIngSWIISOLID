@@ -17,7 +17,6 @@ import java.util.logging.Logger;
 /**
  * Implemeta IVehicleRepository y tiene como funcion implementar el modelo de conexion a la base de datos
  * @author ADRIAN CAMILO TORRES
- * @author DANIEL NAVIA
  */
 public class VehicleRepository implements IVehicleRepository {
     /**

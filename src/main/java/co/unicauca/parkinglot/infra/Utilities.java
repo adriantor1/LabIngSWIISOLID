@@ -12,7 +12,6 @@ import java.time.temporal.ChronoUnit;
  * Clase que implementa metodos de utilidad para el calculo de el costo
  * del parqueadero de los vehiculos
  * @author ADRIAN CAMILO TORRES GOMEZ
- * @author DANIEL NAVIA
  */
 public class Utilities {
 
