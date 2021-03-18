@@ -1,0 +1,4 @@
+Integrantes: Adrian Camilo Torres Gómez	<adriantor@Unicauca.edu.co>
+	     Daniel Navia <danavia@unicauca.edu.co>
+Laboratorio 2 Principios SOLID
+Repositorio GIT: https://github.com/adriantor1/Lab2IngSWIISOLID.git

@@ -1,0 +1,6 @@
+co\unicauca\parkinglot\domain\Vehicle.class
+co\unicauca\parkinglot\domain\IParkingCost.class
+co\unicauca\parkinglot\domain\MotoParkingCost.class
+co\unicauca\parkinglot\domain\service\Service.class
+co\unicauca\parkinglot\domain\TypeEnum.class
+co\unicauca\parkinglot\access\IVehicleRepository.class
